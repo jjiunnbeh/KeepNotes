@@ -4,7 +4,7 @@ function Footer()
     return (
         <footer>
         <p>
-            Copyright @ {currentYear}
+            Copyright © {currentYear} 
         </p>
         </footer>
     );
