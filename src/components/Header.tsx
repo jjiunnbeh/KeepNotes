@@ -1,8 +1,7 @@
-import React from "react";
 function Header()
 {
-    return(
-        <><header><h1>KeepNotes: Easy Notetaking</h1></header></>
+    return (
+        <header>KeepNotes: Easy NoteTaking</header>
     );
 }
 
