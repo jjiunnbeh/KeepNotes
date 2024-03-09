@@ -2,7 +2,7 @@
 
 To run the app:
 
-in the terminal
+In the terminal
 ```
 cd KeepNotes
 npm install
