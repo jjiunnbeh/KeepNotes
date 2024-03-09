@@ -1,7 +1,7 @@
 function Header()
 {
     return (
-        <header>KeepNotes: Easy NoteTaking</header>
+        <header>KeepNotes: Easy note taking</header>
     );
 }
 

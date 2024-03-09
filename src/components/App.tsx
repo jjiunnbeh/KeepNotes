@@ -1,10 +1,12 @@
 import '../App.css';
 import Footer from "./Footer";
 import Header from "./Header";
-import NotePad from "./Notepad";
+import NotePad from "./NotePad";
 
 function App()
 {
+
+  let num = 5
   return(
   <>
   <h1><Header /></h1>

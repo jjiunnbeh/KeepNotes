@@ -1,5 +1,6 @@
-function NotePad()
+function NotePad() 
 {
+
     return (
         <div className="notepad">
         <h1>Title</h1>
