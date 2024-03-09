@@ -1,10 +1,16 @@
-function NotePad() 
+interface NotePadProps
+{
+
+    title: string;
+    content: string;
+}
+function NotePad({title, content}: NotePadProps) 
 {
 
     return (
         <div className="notepad">
-        <h1>Title</h1>
-        <p>Content</p>
+        <h1>{title}</h1>
+        <p>{content}</p>
         </div>
     );
 }
