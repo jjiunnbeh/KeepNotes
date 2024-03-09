@@ -2,9 +2,10 @@
 
 To run the app:
 
-## cd to the correct directory
+in the terminal
 ```
+cd KeepNotes
 npm install
 npm run dev
 ```
-then paste the link into your browser.
+then paste the link into your browser
