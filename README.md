@@ -1,11 +1,13 @@
 # KeepNotes: A simple notetaking application
 
-To run the app:
+**To run the application:**  
+First, clone the repository into your local device.
 
-In the terminal
+Then
+In the terminal:
 ```
 cd KeepNotes
 npm install
 npm run dev
 ```
-then paste the link into your browser
+Paste the link into your browser.
