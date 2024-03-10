@@ -125,7 +125,15 @@ footer p
   opacity: 40%;
   color: #1f0909;
 }
+@media (max-width: 768px) {
+  .notepad {
+    width: auto; 
+  }
 
+  form {
+    width: 90%; 
+  }
+}
 
 
   
