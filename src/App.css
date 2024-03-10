@@ -17,48 +17,115 @@ h1 header
   font-style: normal;
   text-align: center;
 }
-/* Footer background */
-footer 
-{
-  position: absolute;
-  text-align: center;
-  bottom: 0px;
-  width: 100%;
-  height: 1.5rem;
-}
-/* Footer text */
-footer p 
-{
-  font-size:1.5rem;
-  font-family: sans-serif;
-  opacity: 50%;
-  color: #1f0909;
-}
+
 /* Notepad component */
 .notepad 
 {
-  background: #f1d0d0;
+  background: #c3e0dd;
   border-radius: 10px;
   box-shadow: 0 2px 5px #ccc;
   padding: 15px;
-  width: 280px;
+  width: auto;
+  height:auto;
   margin: 16px;
   float: left;
 }
 /* Notepad display text */
-.notepad 
-{
-  display: inline-block;
-}
-.notepad h1
-{
-  font-size: 2rem;
 
+
+.notepad {
+  background: #c3e0dd;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: auto;
+  height:auto;
+  margin: 10px;
+  float: left;
 }
-.notepad p
+.notepad h1 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.notpad p {
+  font-size: 11px;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.notepad button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px 20px auto;
+  background: #c3e0dd;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  background: #c3e0dd;
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  top:10px;
+  background: #198ddb;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+/* Footer background */
+footer 
 {
-  font-size:1.2rem;
+  
+  position:absolute;
+  bottom:0;
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+  height: 0;
 }
+
+/* Footer text */
+footer p 
+{
+  font-size:20%;
+  align-items: bottom;
+  font-family: sans-serif;
+  opacity: 40%;
+  color: #1f0909;
+}
+
 
 
   
