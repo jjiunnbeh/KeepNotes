@@ -1,6 +1,6 @@
 # KeepNotes: A simple notetaking application
-
-  <img src="./src/assets/screenshot.png" alt="KeepNote app screenshot" / >
+<html><body><img src="./src/assets/screenshot.png" alt="KeepNote app screenshot" / ></body></html>
+  
     
 
 **To run the application:**  
