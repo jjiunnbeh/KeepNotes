@@ -1,5 +1,5 @@
-import { MouseEvent, useState } from "react";
-import { DOMAttributes } from "react";
+import { MouseEvent} from "react";
+
 interface NotePadProps
 {
     id: number;
